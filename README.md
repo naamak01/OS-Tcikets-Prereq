@@ -86,6 +86,91 @@ Will then ask for your USERNAME and PASSWORD you used when creating your VM, the
 
 ![image](https://github.com/user-attachments/assets/bc240fc9-1a9f-46a3-b4b5-e86055ea47da)
 
+Once you are on the virtual machine desktop, open Microsoft Edge, and download all required files.
+
+![image](https://github.com/user-attachments/assets/4f8921b3-e3b0-4679-8514-82d8fc14b726)
+
+Utilizing this link, we will install the requirements needed to set up osTicket.
+
+![image](https://github.com/user-attachments/assets/67151884-34bf-4a2e-9564-4176144be283)
+
+
+# Installation Step 3: How to Install the OS Ticket requirements
+
+![image](https://github.com/user-attachments/assets/1857f2b0-9126-48c5-980a-f5b26ee3f84f)
+
+Once files have been downloaded, navigate to your downloaded file, right click and select extract all.
+
+![image](https://github.com/user-attachments/assets/6a7e525d-a430-4443-8354-8ce0e736b9ca)
+
+Browse the destination folder and nevigate to desktop and press extract.
+
+![image](https://github.com/user-attachments/assets/535f2f30-77a3-4404-8ff8-d7d55037e5c3)
+
+Now, navigate to the Control Panel on your VM, notice the "Programs," section and then choose "Uninstall a program," highlighted in blue underneath "Programs."
+
+
+![image](https://github.com/user-attachments/assets/b6803002-c075-4618-8967-d5791aed0e99)
+
+In the next window, select "Turn Windows features on or off." Located on the left side of the menu.
+
+![image](https://github.com/user-attachments/assets/2d8ff0f6-8a83-498b-a76b-38fe878f0ef8)
+
+When the "Turn Windows features on or off" window opens, expand "Internet Information Services."
+
+![image](https://github.com/user-attachments/assets/62ff1e1e-df6a-470b-ab36-3e16926fcaad)
+
+Expand "Application Development Features," select "CGI," press "OK," and allow the system to update."
+
+![image](https://github.com/user-attachments/assets/9e488c50-d829-4e35-8ec0-f4dca0da7378)
+
+From your desktop, open the file folder that was downloaded.
+
+![image](https://github.com/user-attachments/assets/eeff0f87-0bff-4ed5-bc95-208fa80a6b1d)
+
+Then type in your local browser Example Explorer 127.0.0.1 which is your local host to see if it loads properly.
+
+![image](https://github.com/user-attachments/assets/609a29eb-0924-475e-a0a9-9fcd6a9599ab)
+
+Then go into your extracted OSTicket Folder and Install The PHP Manager
+
+![image](https://github.com/user-attachments/assets/61cb543c-d062-4445-8fb6-50aaf93fb98c)
+
+Say yes to everything and then Install. Ones Installed, hit close
+
+Then Install Rewrite also in the OSTicket Folder
+
+![image](https://github.com/user-attachments/assets/9f2bbbd1-e990-4ec4-8457-023370fe1a59)
+
+Then Create the directory C:\PHP
+![image](https://github.com/user-attachments/assets/87f381c6-199f-4c96-8b2c-f5135967558d)
+
+Once these files are downloaded, open File Explorer, navigate to the C: drive, create a new folder, and name it "PHP."
+
+![image](https://github.com/user-attachments/assets/479987c3-414f-4b38-ba86-112d68c762b5)
+
+Extract the files from the zipped PHP file and move them into the newly created PHP folder in the C: drive.
+
+![image](https://github.com/user-attachments/assets/fa9e7971-a0be-431b-b743-9bad071282c5)
+
+Next Go to OSTicket Folder and Install CV
+
+![image](https://github.com/user-attachments/assets/be4b8cd3-4c50-46e6-a442-0f6cdf2a159d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
