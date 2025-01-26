@@ -224,4 +224,151 @@ If everything is correct so far, it should take you to the osTicket installer.
 
 ![image](https://github.com/user-attachments/assets/98cc5a5f-1728-418c-b600-b095baf5cd45)
 
+Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+
+![image](https://github.com/user-attachments/assets/da880a4e-5444-4e69-a642-938daa2e1d2a)
+
+![image](https://github.com/user-attachments/assets/508b1694-6dc0-4bab-b411-65b4414f17f9)
+
+
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+
+![image](https://github.com/user-attachments/assets/4b5f981d-1989-4329-ba16-97bb1f2fa1a4)
+
+Refresh the osTicket site in your browser, observe the changes
+
+Additional Extensions enabled
+
+![image](https://github.com/user-attachments/assets/676a78b8-9491-4596-8539-6b8243d04662)
+
+
+Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+On your Windows C drive, navigate to inetpub > wwwroot > osTicket > include.
+
+![image](https://github.com/user-attachments/assets/5382291a-0ac1-4de6-97f9-c2afafd7f3ce)
+
+Navigate down to the file named ost-sampleconfig.php
+
+![image](https://github.com/user-attachments/assets/88a14e83-47ef-4b4b-b759-987de3220b4d)
+
+change this to ost-config.php.
+
+Right Click and select Rename
+
+
+![image](https://github.com/user-attachments/assets/4b28cefe-3551-4e57-8f31-2839cf1fc50f)
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
+Next, right click on folder and open properties.
+
+![image](https://github.com/user-attachments/assets/62556abd-9768-42dd-aeee-b30dab22943d)
+
+Select SECURITY
+
+![image](https://github.com/user-attachments/assets/d460caaf-d08d-49d7-ab44-64fc51adc96d)
+
+Then Aadvance
+
+Then Disable Inheritance or current permissions away
+
+![image](https://github.com/user-attachments/assets/19b46c2d-e48e-47cd-98cc-9acf68ee7a53)
+
+Select, remove all inherited permissions from this object.
+
+
+## Step 3: Now we will add permissions to allow all users access.
+
+![image](https://github.com/user-attachments/assets/ee20a336-1077-46c3-a60c-b2c16688dff0)
+
+Select Add, Located above enable inheritance
+
+Then select Principles
+
+![image](https://github.com/user-attachments/assets/ed5c29cf-5c46-4807-8881-b837b6cf8789)
+
+Then type in EVeryone: 
+ * NOTE: DO NOT TYPE IN EVERYONE IN REAL LIFE. ONLY TYPE IN THE USER WHO CAN HAVE ACCESS TO IT
+
+![image](https://github.com/user-attachments/assets/3aaa1469-906e-4518-b78b-a257c59dfc3a)
+
+Click Check Names to the Right and then OK
+
+![image](https://github.com/user-attachments/assets/cac7691d-2f2c-43ac-bd53-af0e8ca8168d)
+
+
+Then Check Full Control and then Ok
+
+![image](https://github.com/user-attachments/assets/8bb9499b-9bda-4fd3-ae08-388ff076c107)
+
+
+sHOULD LOOK LIKE THIS
+
+![image](https://github.com/user-attachments/assets/dbda0b41-e645-42f9-be5b-fff13afd1d45)
+
+Notice, that the permissions to allow all users access has now been added.
+
+cLICK ON Everyone, Apply and OK
+
+![image](https://github.com/user-attachments/assets/eceaaf70-1987-472f-836f-16bb3a74f2ca)
+
+
+Then go back to OS Ticket on the Website and Select Continue
+
+![image](https://github.com/user-attachments/assets/7d4f23ba-4e90-4777-8370-6aba88b3c23b)
+
+Now that we have changed the settings, the osTicket extensions are enabled. The ones that are not enabled at this point are not needed at this time.
+
+Then fill out all the info requested Here and Below
+
+![image](https://github.com/user-attachments/assets/6a31fed4-8960-489b-bae3-9e9411d61b27)
+
+NEXT: Go into OS Ticket installation folder to create a user login for the MySQL
+
+* NOTE: Leave the OS Ticket installation. Do not click install now Until done with setting up MySQL
+
+![image](https://github.com/user-attachments/assets/3dccbe52-ac41-4d27-9465-e0e64146cbda)
+
+
+## Step 4: Installation configuration of OS Ticket
+
+Click on HeidiSQL to Install:
+
+* From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL
+
+![image](https://github.com/user-attachments/assets/91cb41e2-f282-45b7-8b21-f5bc2b065c8c)
+
+Next, until it is done installing. 
+
+![image](https://github.com/user-attachments/assets/2ab8093e-b715-4689-9411-6ffc1d714cd1)
+
+Make sure Launch HeidiSQL is check before clicking finished
+
+![image](https://github.com/user-attachments/assets/d5fdd527-5353-4397-b137-9d4f0ba346db)
+
+Then Skip 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
