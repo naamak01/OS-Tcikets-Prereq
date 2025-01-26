@@ -359,14 +359,47 @@ Make sure Launch HeidiSQL is check before clicking finished
 
 Then Skip 
 
+Open HeidiSQL and Select create new.
+
+![image](https://github.com/user-attachments/assets/875a08a5-74b0-4fc6-b332-bed2461b009b)
+
+Once, folder opens enter the password of ROOT and open.
+
+![image](https://github.com/user-attachments/assets/2b395313-1536-4776-849d-1e729053966c)
+
+Then create your databse that matches what you have
+
+On the main page of SQL we will create a new data base.
+
+![image](https://github.com/user-attachments/assets/2281eeeb-ffa5-4064-878f-5ebc8aa62d92)
+
+Next, name the new database Os-Ticket
+
+Once created, we can navigate back to the MySQL database connection tab, complete the form, and install.
 
 
+NOW: Go back to Explorer to finish your OS Ticket by adding the Database Settings from HeidiSQL
 
+![image](https://github.com/user-attachments/assets/16b74b13-87aa-4696-b16e-36ff484fb972)
 
+Congratulations, If everything was set up correctly, we will be able to navigate to the osTicket website.
 
+Go back to HeidiSQL and should see some info
+![image](https://github.com/user-attachments/assets/3fafff89-019b-46d7-b03a-b8d9d6a14ace)
 
+End Users osTicket URL:
+http://localhost/osTicket/ 
 
+To test Login:
 
+USE LINK: http://localhost/osTicket/scp/login.php
+![image](https://github.com/user-attachments/assets/d365e4f6-c886-4ada-80f5-e637d4d06f32)
+
+Successful Login
+
+![image](https://github.com/user-attachments/assets/b57106ff-e419-4ffc-b336-a38808c20ab5)
+
+For Enuser to create ticket:
 
 
 
