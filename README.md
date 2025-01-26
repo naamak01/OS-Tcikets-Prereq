@@ -171,17 +171,57 @@ Once that is complete, install MySQL.
 
 Once MySQL is downloaded, select the standard configuration.
 
-![image](https://github.com/user-attachments/assets/8bbd647e-bada-4001-8200-0a3bbaa882bf)
-
 Next, create a root password for the user.
 
+![image](https://github.com/user-attachments/assets/8bbd647e-bada-4001-8200-0a3bbaa882bf)
+
+Open Windows and run IIS Manager as an administrator.
+
+![image](https://github.com/user-attachments/assets/32050c64-7b33-43b4-8bfe-391f35196f06)
+
+Once IIS manager is open navigate to PHP manager.
+
+![image](https://github.com/user-attachments/assets/f72223f4-4490-427d-bb2b-eb6ca7909336)
+
+Register new PHP.
+
+nAVIGATE TO THE php folder in C drive and click the Executable file
+
+![image](https://github.com/user-attachments/assets/ea3de13d-8147-471b-b968-c2a53b5e9ef1)
 
 
+Click Here: You will notice a pop-up menu to the right with Restart, Start and Steop
 
+![image](https://github.com/user-attachments/assets/d84d133e-72d6-445b-a331-ce7b69f7e170)
 
+![image](https://github.com/user-attachments/assets/79d4a24a-0a95-424c-813d-5c00f03f5e01)
 
+Reload IIS (Open IIS, Stop and Start the server)
+In IIS Manager, navigate to the Connections tab and select the "Default Web Site."
 
+Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
+![image](https://github.com/user-attachments/assets/077f91ce-4686-4e42-bf22-b73d63805df9)
 
+![image](https://github.com/user-attachments/assets/15329fe3-758b-40ff-aa41-122da82ee2b4)
+
+![image](https://github.com/user-attachments/assets/8f2f1640-72be-4372-aa49-2498238c07c1)
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
+NOTE: IF IS TICKET DOES NOT SHOW THE DEFAULT WEB SITE: REFRESH IT 
+
+![image](https://github.com/user-attachments/assets/2925023c-a92f-4974-822e-26ac536a4ae6)
+
+Now, on the right-hand tab under "Manage folder," select "Browse *80 (HTTP)."
+
+If everything is correct so far, it should take you to the osTicket installer.
+
+![image](https://github.com/user-attachments/assets/98cc5a5f-1728-418c-b600-b095baf5cd45)
 
 
