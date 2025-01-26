@@ -157,12 +157,23 @@ Next Go to OSTicket Folder and Install CV
 
 ![image](https://github.com/user-attachments/assets/be4b8cd3-4c50-46e6-a442-0f6cdf2a159d)
 
+Ones it displays Successful, Install MySQL.
+
+OSTicket will use MySQL  which is a database system to store user information and other info relating to our work in the ticket
+system.
+
+![image](https://github.com/user-attachments/assets/5b94259d-0183-4de9-b907-d3436ef2fca2)
 
 
+Once that is complete, install MySQL.
 
+![image](https://github.com/user-attachments/assets/6cd3cd7d-1731-4da6-92a9-de2c2cb11697)
 
+Once MySQL is downloaded, select the standard configuration.
 
+![image](https://github.com/user-attachments/assets/8bbd647e-bada-4001-8200-0a3bbaa882bf)
 
+Next, create a root password for the user.
 
 
 
